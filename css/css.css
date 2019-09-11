@@ -1,0 +1,89 @@
+/*Sets entire webpage background color */
+body{
+	background-color:#053264;
+}
+/* Makes every table be in the center with a width of 975 px, borders collapsed and solid, and centered text*/
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width:975px;
+	text-align: center;
+	border-collapse: collapse;
+	border: solid; 
+}
+/*Sets top banner to have no bottom border so the border won't be double sized*/
+#topbanner{
+	border-bottom: none; 
+}
+/* Sets the text to left for paragraph and removes bottom border so won't be double sized*/
+#body{
+	text-align:left;
+	border-bottom: none;
+}
+
+/*Sets individual cell with padding of 15px*/
+td{
+	 padding: 15px;
+	 vertical-align:top;
+
+}
+/*Sets each row to the light sky blue color*/
+tr{
+	background-color:#E6FFFF;
+	vertical-align:top;
+}
+
+/*Sets mainnav to have a line to the right to separate body and mainnav*/
+#mainnav{
+	border-right: solid;
+}
+/*Sets padding (box size) to be larger with curved edges and black border, got this from the book pg 264*/
+#mainnav p{
+	padding: 25px;
+	background-color:#053264;
+	border-radius: 10px; 
+	border: solid; 
+}
+
+/*Changes color of link text to white*/
+#mainnav a{
+	color: #FFFFFF;
+	
+}
+/*Changers color of hovering over buttons*/
+#mainnav p:hover{
+	background-color: black;
+	color: black;
+}
+
+/*Make hovering over link to black*/
+#mainnav a:hover{
+	color: #3D9E58;
+}
+/*Sets border separating the nav and my information to be visible*/
+#footer td{
+	border: solid; 
+}
+
+/*With padding separates each link with more space and changes color of link to black*/
+#footer a{
+	padding: 10px;
+	color: #000000;  
+	text-decoration: none;
+}
+/*Changers hover link to white*/
+#footer a:hover{
+	color: #008080;
+}
+/*adds padding to image*/
+img{
+	padding-top: 20px;
+}
+/*removes underline and changes color every link*/
+a{
+	text-decoration: none;
+	color: #008080;
+	#009900;
+}
+
+
